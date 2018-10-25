@@ -7,20 +7,29 @@ author: wwcodepdx
 
 ![unsplash.com](./photo-1451324119451-db0ac857463c.jpg)
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur [adipiscing](/i-am-so-clever/) elit. Proin bibendum ullamcorper rutrum.
+### What is Git?
 
-Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.
+Before I can answer that question, I need to answer another: **What is Version Control?**
 
-### Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.
+I'll rely on the people at [Atlassian](https://www.atlassian.com) to answer that:
 
-Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
 
-Proin ornare ligula eu tellus tempus elementum. . Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
+*"Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members."*
 
-### Aenean bibendum iaculis mi, nec blandit lacus interdum vitae
+So, **what is git?**  Git is the most widely used modern version control system today.  That's it.  
 
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Rather than talk about what it can do, the best way is to start using it.  So let's dive in...
 
-### Donec hendrerit laoreet risus eget adipiscing.
+It's very easy to get overwhelmed when first trying git, some of the commands aren't intuitive and it can be difficult to learn. However keep trying and using it regularly, even just to back up your own code, and it will get easier.
 
-Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+There are several ways to interact with git on your computer.  I'll be using the terminal (or command line).  Any commands that I type will be shown as:
+
+`example code`
+
+Firstly you need a free [Github](www.github.com) account.  Github is simply somewhere to keep that central code store, in what are call **repositiories** (or **repo** for short).  Others are available such as [Bitbucket](https://bitbucket.org/) and [SourceForge](https://sourceforge.net/).
+
+Once you're signed up, create a new repository, give it a name, tick the box that says *Initialize this repository with a README* and create your first repo.  It only has your README file at the moment.
+
+To download the repo to your computer, also known as cloning, click the green *Clone or download* button.  This will give you link to copy by clicking the little clipboard icon next it - I'll use *https://github.com/user/example.git*.  Then open your terminal and type
+
+`git clone https://github.com/user/example.git`
